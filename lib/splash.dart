@@ -1,5 +1,6 @@
 import 'package:dating_app/constants/images.dart';
 import 'package:flutter/material.dart';
+import 'package:localization/generated/l10n.dart';
 
 class Splash extends StatelessWidget {
   const Splash({super.key});
@@ -20,7 +21,7 @@ class Splash extends StatelessWidget {
         Center(
           child: Row(
             mainAxisAlignment: MainAxisAlignment.center,
-            children: [Image.asset(AppImage.logo), Text()],
+            children: [Image.asset(AppImage.logo), Text(S.current.hello)],
           ),
         )
       ],

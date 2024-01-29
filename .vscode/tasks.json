@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "localization - intl utils generate",
+            "type": "shell",
+            "command": "cd localization; fvm flutter pub run intl_utils:generate; cd ..;",
+            "group": "none",
+            "presentation": {
+              "reveal": "always",
+              "panel": "new"
+            }
+          },
+    ]
+}
